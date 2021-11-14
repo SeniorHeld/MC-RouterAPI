@@ -23,7 +23,7 @@ Output:
 `New-MCRoute -uri http://192.168.1.1:25575 -address paper.example.com -backend 192.168.1.12:25565`
 
 3. Remove a route: \
-`Remove-MCRoute -uri http://192.168.1.1:25575`
+`Remove-MCRoute -uri http://192.168.1.1:25575 -address paper.example.com`
 
 4. Set the default route: \
 `Set-MCDefaultRoute -uri http://192.168.1.1:25575 -backend "192.168.1.10:25566"`
